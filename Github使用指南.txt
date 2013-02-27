@@ -7,7 +7,7 @@
 7,文件格式：寄存于github的文件最好为txt文本文件，这样可以直接查看
 8,文件下载：github要是用于下载的网盘，则下载文件（pdf，txt文件）的网址为raw右键可以查看
 9,代码格式：一定要存为.r之后再上传，否则下载会自动变成一行，即有特定格式文件不要用.txt格式上传
-10,在github项目主页中加入LATEX公式需要在《head》之前加入5行代码
+10,在github项目主页中加入LATEX公式需要在《head》之后加入5行代码
 <script type="text/x-mathjax-config">
   MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
 </script>
