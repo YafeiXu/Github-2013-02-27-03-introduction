@@ -1,0 +1,15 @@
+1，在LYX中加\LATEX标识：
+1）LYX->文档->首选项->导言区加入下面代码
+\makeatletter
+\def\LyX{L\kern-.2em% Define \LyX
+  {\sbox\z@ X%
+    \vbox to .9\ht\z@{\hbox{\check@mathfonts
+        \fontsize\sf@size\z@
+        \math@fontsfalse\selectfont
+        Y}%
+      \vss}%
+  }%
+\kern-.125emX\@}
+\makeatother
+2）在LYX文本编辑中ctrl+L->加入latex代码->\TeX, \LaTeX and \LyX->用鼠标选定其中任何一个
+LYX->文档->首选项->导言区->保存为文档缺省选项
