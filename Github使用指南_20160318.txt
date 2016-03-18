@@ -1,13 +1,14 @@
-1,�����⣺��github�ͻ��˴�����Repository
-2,�ļ��ϴ����ڿ�ı����ļ����м����ļ����Զ��ϴ���������
-3,��Ŀ��ҳ����ÿ�����setting�п��Դ�����Ŀ��ҳ�����Ƹ�����ҳ����Ҫ10����ʱ��ȴ�
-4,�˺ţ��⣬�ļ���ϵ��һ���˺ſ�����n���⣬ÿ�����п�����n���ļ��м��ļ�
-5,���ļ������ã���master�¿��������ӿ⣬�ͻ����ϵ��ӿ���Ҫ�뱾���ļ��е�����һ��
-6,commit���ã�ÿ���һ���ļ����е��ļ�����Ҫ����commit��commit�Ƕ��ļ�����˵����������˵��
-7,�ļ���ʽ���Ĵ���github���ļ����Ϊtxt�ı��ļ�����������ֱ�Ӳ鿴
-8,�ļ����أ�githubҪ���������ص����̣��������ļ���pdf��txt�ļ�������ַΪraw�Ҽ����Բ鿴
-9,�����ʽ��һ��Ҫ��Ϊ.r֮�����ϴ����������ػ��Զ����һ�У������ض���ʽ�ļ���Ҫ��.txt��ʽ�ϴ�
-10,��github��Ŀ��ҳ�м���LATEX��ʽ��Ҫ�ڡ�head��֮�����5�д���
+1,建立库：在github客户端创建库Repository
+2,文件上传：在库的本地文件夹中加入文件会自动上传到服务器
+3,项目主页：在每个库的setting中可以创建项目主页，类似个人主页，需要10分钟时间等待
+3.1,删除一个repo，点击setting进行操作
+4,账号，库，文件关系：一个账号可以有n个库，每个库中可以有n个文件夹及文件
+5,子文件夹设置：在master下可以设置子库，客户端上的子库名要与本地文件夹的名称一致
+6,commit作用：每变更一次文件夹中的文件，就要更改commit，commit是对文件名的说明，或变更的说明
+7,文件格式：寄存于github的文件最好为txt文本文件，这样可以直接查看
+8,文件下载：github要是用于下载的网盘，则下载文件（pdf，txt文件）的网址为raw右键可以查看
+9,代码格式：一定要存为.r之后再上传，否则下载会自动变成一行，即有特定格式文件不要用.txt格式上传
+10,在github项目主页中加入LATEX公式需要在《head》之后加入5行代码
 <script type="text/x-mathjax-config">
   MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
 </script>
@@ -15,5 +16,6 @@
 </script>
 
 
-11, �ӱ��ؽ���repoʹ�ñ����ϴ�è�����Ͻ�+�š����ƶ˽���repo��ʹ�ñ����ϴ�è���Ͻ�+���µ�cloneѡ�������ͬ���ļ��С����ļ�ֱ�ӷŵ������ļ���Ȼ��ʹ���ϴ�è�ϴ���
-12, �����ļ����������֮�󣬵���ϴ�è������change����commit֮�󣬵��syncronize,��ɸ���
+11, 从本地建立repo使用本地上传猫的左上角+号。从云端建立repo后使用本地上传猫左上角+号下的clone选项建立本地同步文件夹。
+把文件直接放到本地文件夹然后使用上传猫上传。
+12, 本地文件夹做出变更之后，点击上传猫顶栏的change输入commit之后，点击syncronize,完成更新
